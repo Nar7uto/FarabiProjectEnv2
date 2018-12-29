@@ -1,0 +1,41 @@
+{% extends "homepage.html" %}
+
+{%load static%}
+
+{% block extracss %}
+<link rel="stylesheet" href="{% static 'css/navbar-top-fixed.css' %}">
+<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+<style>
+  .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    body {
+        padding-top: 100px;
+    }
+</style>
+{% endblock %}
+
+{% block extra_head %}{% endblock %}
+
+{% block navbar %}
+    {% include 'snippet/navbar2.html' %}
+{% endblock %}
+
+{% block body %}
+    {% block content %}
+    {% endblock %}
+    {% block extracontent %}{% endblock %}
+    {% block sidebar %}{% endblock %}
+    {% block extrasidebar %}{% endblock %}
+{% endblock %}
+{% block extraBodyBeforeFooter %}{% endblock %}
+{% block extrajs %}{% endblock %}
+
+

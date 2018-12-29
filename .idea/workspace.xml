@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ae18a8-b7b7-4b5e-9a11-638e4e2e2d50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IIRC/blogs/postView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/dateline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/dateline_stale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/follow-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/mainFooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/maincss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/mainjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/navbar1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IIRC/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/IIRC/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/IIRC/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/IIRC/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/IIRC/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/blogs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/blogs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/blogs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/blogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/blogs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/blogs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/navbar-top-fixed.css" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/navbar-top-fixed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/copyfornew.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/copyfornew.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/homenew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/site_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/site_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog/atom_entry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/atom_entry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog/atom_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/atom_feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog/rss_feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/rss_feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog/rss_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/pinax/blog/rss_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_in_env/static_root/css/navbar-top-fixed.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_in_env/static_root/css/navbar-top-fixed.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,24 +49,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Done">
+      <favorite_root url="file://$PROJECT_DIR$/IIRC/templates/homepage.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/IIRC/settings.py">
+        <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="496">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/IIRC/urls.py">
+        <entry file="file://$PROJECT_DIR$/IIRC/templates/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+            <state relative-caret-position="465">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="e#638#670#0" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,35 +81,61 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IIRC/templates/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="837">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/blogs/views.py">
+        <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="713">
+              <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1426">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>perm</find>
       <find>pr</find>
+      <find>email</find>
+      <find>blog_</find>
+      <find>block</find>
+      <find>search</find>
+      <find>sear</find>
+      <find>Blog</find>
+      <find>BlogIndexView</find>
+      <find>.html</find>
+      <find>stale</find>
+      <find>imageset</find>
+      <find>ImageSpecField</find>
+      <find>../</find>
+      <find>stat</find>
+      <find>homepage</find>
+      <find>href</find>
+      <find>land</find>
+      <find>{% ur</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,9 +145,38 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/python3.6/site-packages/video/models.py" />
-        <option value="$PROJECT_DIR$/IIRC/blogs/urls.py" />
-        <option value="$PROJECT_DIR$/IIRC/IIRC/settings.py" />
+        <option value="$PROJECT_DIR$/IIRC/blogs/postView.py" />
+        <option value="$PROJECT_DIR$/IIRC/blogs/models.py" />
+        <option value="$PROJECT_DIR$/IIRC/blogs/admin.py" />
+        <option value="$PROJECT_DIR$/IIRC/templates/test.html" />
+        <option value="$PROJECT_DIR$/static_in_env/static_root/css/navbar-top-fixed.css" />
+        <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/navbar-top-fixed.css" />
+        <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/blog.css" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog/blog_base.html" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/apps.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/models.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/admin.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/models.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog/blog_post.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/maincss.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/mainjs.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/mainfooter.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/maincss2.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/follow-us.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/homenew.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/navbar1.html" />
+        <option value="$PROJECT_DIR$/IIRC/blogs/views.py" />
         <option value="$PROJECT_DIR$/IIRC/IIRC/urls.py" />
+        <option value="$PROJECT_DIR$/IIRC/blogs/urls.py" />
+        <option value="$PROJECT_DIR$/IIRC/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_post.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_base.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/landing.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/forms.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/copyfornew.html" />
+        <option value="$PROJECT_DIR$/IIRC/IIRC/settings.py" />
+        <option value="$PROJECT_DIR$/IIRC/templates/site_base.html" />
       </list>
     </option>
   </component>
@@ -90,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +208,12 @@
               <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
               <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
               <item name="IIRC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -114,22 +222,84 @@
               <item name="IIRC" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pinax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pinax" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="snippet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pinax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pinax" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IIRC/templates/snippet" />
+      <recent name="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog" />
+      <recent name="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog" />
       <recent name="$PROJECT_DIR$/IIRC" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IIRC/templates" />
+      <recent name="$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/templates/pinax/blog" />
       <recent name="$PROJECT_DIR$/IIRC" />
     </key>
   </component>
@@ -156,18 +326,42 @@
       <option name="presentableId" value="Default" />
       <updated>1545857154118</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding to pycharm">
+      <created>1545870723023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545870723023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1362" height="713" extended-state="6" />
+    <frame x="-1" y="28" width="1362" height="713" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19446522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20194465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32991454" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28496635" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -175,36 +369,295 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding to pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding to pycharm" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_project/test_project/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/receivers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/video/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state>
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/manage.py">
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/dateline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/blogs/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/templatetags/pinax_news_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/blogs/apps.py">
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/specs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/context_processors.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/signals.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/specs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/atom_entry.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/images/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/images/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/images/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pinax/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_in_env/media_root/images/1/cd84f9ab-0922-4b2e-913a-94c1133f86f8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/maincss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/mainjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/j.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/mainFooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/follow-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="63" column="74" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/dateline_stale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/blogs/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -213,35 +666,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/blogs/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/IIRC/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="186">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/IIRC/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+        <state relative-caret-position="409">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding>
             <element signature="e#638#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base.html">
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/copyfornew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1519">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/IIRC/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/test.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="899">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
       </provider>
     </entry>

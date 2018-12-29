@@ -50,7 +50,9 @@ INSTALLED_APPS = [
     'blogs',
     'account',
     'pinax.comments',
-
+    'imagekit',
+    'pinax.news',
+    'pinax.templates',
 ]
 
 SITE_ID = 1

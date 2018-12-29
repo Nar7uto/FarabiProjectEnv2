@@ -5,13 +5,13 @@ from django.core.mail import send_mail
 from django.conf import settings
 from .models import Post
 
-def home(request):
+def blogs(request):
     # return render(request, 'base.html', {})
-    return render(request, 'homenew.html', {})
-
-
-def land(request):
     return render(request, 'landing.html', {})
+
+
+def homepage(request):
+    return render(request, 'homepage.html', {})
 
 
 def index(request):
@@ -33,8 +33,8 @@ def index(request):
         context = {
             'title': 'Thank for Registeration',
         }
-    return render(request, 'base.html', context)
-    # return render(request, 'index.html', context)
+    # return render(request, 'base.html', context)
+    return render(request, 'index.html', context)
 
 
 def contact(request):
@@ -70,6 +70,9 @@ class Postclass():
 
 
 def post(request):
-
-    return render(request, 'home.html', {})
+    new_post = Post.objects.all()[:1]
+    context = {
+        'show_post': new_post
+    }
+    return render(request, 'test.html', context)
 

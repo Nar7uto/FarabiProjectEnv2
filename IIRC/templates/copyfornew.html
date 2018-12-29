@@ -1,12 +1,33 @@
-{% extends "homenew.html" %}
+{% extends "homepage.html" %}
+
+{%load static%}
 
 {% block meta %}
 {% endblock %}
+
 {% block css %}
 {% endblock %}
+
+{% block extracss %}{% endblock %}
+{% block extrahead %}{% endblock %}
+
 {% block navbar %}
 {% endblock %}
-{% block content %}
+
+{% block body %}
+    {% block content %}
+    {% endblock %}
+    {% block extracontent %}{% endblock %}
+    {% block sidebar %}{% endblock %}
+    {% block extrasidebar %}{% endblock %}
 {% endblock %}
+
+{% block extraBodyBeforeFooter %}{% endblock %}
+
 {% block footer %}
 {% endblock %}
+
+{% block js %}
+{% endblock %}
+
+{% block extrajs %}{% endblock %}

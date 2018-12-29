@@ -1,23 +1,25 @@
-{% extends "homenew.html" %}
+{% extends "homepage.html" %}
 {% load crispy_forms_tags %}
+{%load static%}
 {% block content %}
 <div class="container-fluid">
-<p style="background-color:#00ffcc" >
-<br>
-<br>
-<br>
-<br>
+  <p style="background-color:#00ffcc">
+    <br>
+    <br>
+    <br>
+    <br>
 
-</p>
+  </p>
   <div class="row">
     <div class="col-md-4">
-           <form method="post" action="">{% csrf_token %}
+      <form method="post" action="">{% csrf_token %}
         {{form|crispy}}
         <input class="btn btn-primary" type="submit" value="Submit">
-    </form>
+      </form>
     </div>
   </div>
 </div>
-
+{{ show_post }}
+{% include 'test.html' %}
+I'm after the article
 {% endblock %}
-

@@ -1,0 +1,88 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="{% static 'img/544x180-300x99-387x128-67.png' %}" type="image/x-icon">
+    {% block meta %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    {% endblock %}
+    {% block css %}
+        {% include 'snippet/maincss.html' %}
+    {% endblock %}
+    {% block extracss %}{% endblock %}
+    {% block extra_head %}{% endblock %}
+
+</head>
+
+<body>
+{% block navbar %}
+    {% include 'snippet/navbar1.html' %}
+{% endblock %}
+{% block body %}
+{% block content %}
+<main role="main" class="container">
+    <div>
+        <section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow"
+                 id="header1-0" style="background-image: url({% static 'img/header1.png' %});">
+            <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);"></div>
+            <div class="mbr-table-cell">
+                <div class="container">
+                    <div class="row">
+                        <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
+                            <h1 class="mbr-section-title display-1">Welcome to IIRC&nbsp;</h1>
+                            <p class="mbr-section-lead lead">
+                                Iqbal Information and Research Center IIRC is a NEWS website related to Albaqir a.s
+                                society
+                                <br>
+                                Iqbal Information and Research Center IIRC is a NEWS website related to Albaqir a.s
+                                society
+                            </p>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-lg btn-info" href="../ar">العربية</a>
+                                <a class="btn btn-lg btn-white" href="../en">English</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mbr-arrow mbr-arrow-floating" aria-hidden="true">
+                <a href="#social-buttons2-0">
+                    <i class="mbr-arrow-icon"></i>
+                </a>
+            </div>
+        </section>
+        {% include 'snippet/follow-us.html' %}
+    </div>
+</main>
+{% endblock %}
+{% block extracontent %}{% endblock %}
+
+{% block sidebar %}{% endblock %}
+{% block extrasidebar %}{% endblock %}
+
+{% endblock %}
+{% block extraBodyBeforeFooter %}{% endblock %}
+
+{% block footer %}
+    {% include 'snippet/mainFooter.html' %}
+{% endblock %}
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-0"
+        style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+    <div class="container">
+        <p class="text-xs-center">Copyright (c) 2019 IIRC.</p>
+    </div>
+</footer>
+{% block js %}
+    {% include 'snippet/mainjs.html' %}
+
+<input name="animation" type="hidden">
+{% endblock %}
+{% block extrajs %}{% endblock %}
+</body>
+
+</html>
