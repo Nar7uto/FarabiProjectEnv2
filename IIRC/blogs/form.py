@@ -5,7 +5,7 @@ from .models import SignUp
 class ContactForm(forms.Form):
 	fullname = forms.CharField(required=False)
 	email = forms.EmailField(required=True)
-	message = forms.CharField(required=True)
+	message = forms.CharField(widget=forms.Textarea(attrs={"rows":5, "cols":20}))
 
 
 class SignUpForm(forms.ModelForm):

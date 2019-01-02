@@ -60,7 +60,7 @@ def contact(request):
     context = {
         'form': form,
     }
-    return render(request, 'forms.html', context)
+    return render(request, 'contact-us.html', context)
 
 
 class Postclass():
@@ -75,4 +75,12 @@ def post(request):
         'show_post': new_post
     }
     return render(request, 'test.html', context)
+
+
+def home(request):
+    return render(request, 'home.html', {})
+
+
+def arHome(request):
+    return render(request, 'snippet/arHome.html', {})
 

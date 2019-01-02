@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'tinymce',
     'pinax.blog',
     'pinax.images',
     'bootstrapform',
@@ -147,5 +148,13 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static_in_pro', 'our_static'),
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_in_env', 'media_root')
+MEDIAFILES_DIRS = (os.path.join(BASE_DIR, 'static_in_pro', 'our_media'),
+                   )
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+TINYMCE_DEFAULT_CONFIG = {
+    'theme': "advanced",
+    'toolbar': "undo redo | styleselect | bold italic | link image",
+    'width': 500, 'hight': 500,
+}

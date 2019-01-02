@@ -3,6 +3,8 @@
 {%load static%}
 
 {% block extracss %}
+{% include 'snippet/bootstrap4css.html' %}
+
 <link rel="stylesheet" href="{% static 'css/navbar-top-fixed.css' %}">
 <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 <style>
@@ -21,6 +23,7 @@
     }
 </style>
 {% endblock %}
+
 
 {% block extra_head %}{% endblock %}
 
