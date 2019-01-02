@@ -18,10 +18,12 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.contrib import admin
 from blogs import views
+from filebrowser.sites import site
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^admin/filebrowser/', include(site.urls)),
     url(r"^blog/", include("pinax.blog.urls", namespace="pinax_blog")),
     url(r"^ajax/images/", include("pinax.images.urls", namespace="pinax_images")),
     url(r"^account/", include("account.urls")),

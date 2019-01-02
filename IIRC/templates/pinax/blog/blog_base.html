@@ -6,56 +6,61 @@
 {% block body_class %}blog{% endblock %}
 
 {% block body %}
-    <div class="row blog-container">
-        <div class="col-md-9 blog-content">
+<main role="main" class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-9 blog-main">
             {% block content %}{% endblock %}
         </div>
-            {% block extracontent %}{% endblock %}
+        {% block extracontent %}{% endblock %}
         <div class="col-md-3 sidebar">
             {% block sidebar %}
-                <nav class="sections-nav">
-                    <div class="heading"><h4 style="text-transform: capitalize;"><strong>Sections</strong></h4></div>
-                   <h5 style="text-transform: capitalize;"> <a class="{% if current_section == 'all' %}current-section{% endif %}" href="/blog/">All</a></h5>
-                    {% blog_sections as sections %}
-                    {% for section in sections %}
-                        {% if scoper_lookup %}
-                            {% url "pinax_blog:blog_section" scoper_lookup section.slug as section_url %}
-                        {% else %}
-                            {% url "pinax_blog:blog_section" section.slug as section_url %}
-                        {% endif %}
-                    <a class="{% if current_section == section %}current-section{% endif %}" href="{{ section_url }}"><h5 style="text-transform: capitalize;">{{ section.name }}</h5></a>
-                    {% endfor %}
-                </nav>
-                <h1>
+            <nav class="sections-nav">
+                <div class="heading"><h4 style="text-transform: capitalize;"><strong>Sections</strong></h4></div>
+                <h5 style="text-transform: capitalize;"><a
+                        class="{% if current_section == 'all' %}current-section{% endif %}" href="/blog/">All</a></h5>
+                {% blog_sections as sections %}
+                {% for section in sections %}
+                {% if scoper_lookup %}
+                {% url "pinax_blog:blog_section" scoper_lookup section.slug as section_url %}
+                {% else %}
+                {% url "pinax_blog:blog_section" section.slug as section_url %}
+                {% endif %}
+                <a class="{% if current_section == section %}current-section{% endif %}" href="{{ section_url }}"><h5
+                        style="text-transform: capitalize;">{{ section.name }}</h5></a>
+                {% endfor %}
+            </nav>
+            <h1>
 
-                    {% if scoper_lookup %}
-                        {% url "pinax_blog:blog" scoper_lookup as blog_url %}
-                    {% else %}
-                        {% url "pinax_blog:blog" as blog_url %}
-                    {% endif %}
-                    <a href="{{ blog_url }}">{{ SITE_NAME }}</a>
-                </h1>
-                <!--<div class="profile-picture">-->
-                    <!--<img src="https://robohash.org/pinax" />-->
-                <!--</div>-->
-                <p class="bio">
-                    This is where you can list your bio, add links
-                    etc., by editing the template.
-                </p>
-                <div class="feeds">
-                    {% if scoper_lookup %}
-                        {% url "pinax_blog:blog_feed" scoper_lookup "all" "atom" as feed_url %}
-                    {% else %}
-                        {% url "pinax_blog:blog_feed" "all" "atom" as feed_url %}
-                    {% endif %}
-                    <a href="{{ feed_url }}"><i class="fas fa-rss"></i> Atom Feed</a>
-                </div>
+                {% if scoper_lookup %}
+                {% url "pinax_blog:blog" scoper_lookup as blog_url %}
+                {% else %}
+                {% url "pinax_blog:blog" as blog_url %}
+                {% endif %}
+                <a href="{{ blog_url }}">{{ SITE_NAME }}</a>
+            </h1>
+            <!--<div class="profile-picture">-->
+            <!--<img src="https://robohash.org/pinax" />-->
+            <!--</div>-->
+            <p class="bio">
+                This is where you can list your bio, add links
+                etc., by editing the template.
+            </p>
+            <div class="feeds">
+                {% if scoper_lookup %}
+                {% url "pinax_blog:blog_feed" scoper_lookup "all" "atom" as feed_url %}
+                {% else %}
+                {% url "pinax_blog:blog_feed" "all" "atom" as feed_url %}
+                {% endif %}
+                <a href="{{ feed_url }}"><i class="fas fa-rss"></i> Atom Feed</a>
+            </div>
 
 
             {% endblock %}
             {% block extrasidebar %}{% endblock %}
         </div>
     </div>
+</main>
 {% endblock %}
 {% block extraBodyBeforeFooter %}{% endblock %}
 {% block extrajs %}{% endblock %}

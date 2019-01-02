@@ -36,6 +36,8 @@ EMAIL_USE_SSL = True
 # Application definition
 
 INSTALLED_APPS = [
+    'tinymce',
+    'filebrowser',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -43,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'tinymce',
+
     'pinax.blog',
     'pinax.images',
     'bootstrapform',
@@ -153,8 +155,27 @@ MEDIAFILES_DIRS = (os.path.join(BASE_DIR, 'static_in_pro', 'our_media'),
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-TINYMCE_DEFAULT_CONFIG = {
-    'theme': "advanced",
-    'toolbar': "undo redo | styleselect | bold italic | link image",
-    'width': 500, 'hight': 500,
-}
+# TINYMCE_DEFAULT_CONFIG = {
+#     # 'width': 600,
+#     # 'height': 400,
+#     # 'theme': "advanced",
+#     # 'toolbar': "undo redo | styleselect | bold italic | link image",
+#     'selector': 'textarea',
+#     'theme': 'modern',
+#     'plugins': 'link image preview codesample contextmenu table code lists',
+#     'toolbar1': 'formatselect | bold italic underline | alignleft aligncenter alignright alignjustify '
+#                 '| bullist numlist | outdent indent | table | link image | codesample | preview code',
+#     'contextmenu': 'formats | link image',
+#     'menubar': False,
+#     'inline': False,
+#     'statusbar': True,
+#     'width': 'auto',
+#     'height': 360,
+# }
+
+TINYMCE_FILEBROWSER = True
+FILEBROWSER_DIRECTORY = ''
+DIRECTORY = ''
+# TINYMCE_JS_ROOT = "tinymce/js/tinymce/"
+# TINYMCE_JS_URL = os.path.join(TINYMCE_JS_ROOT, "tinymce.js")
+#
