@@ -20,6 +20,9 @@ from django.contrib import admin
 from blogs import views
 from filebrowser.sites import site
 
+from pinax.blog.views import EnIndexView
+
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -36,6 +39,9 @@ urlpatterns = [
     url(r'^test/', views.post, name='test'),
     url(r'^home/', views.home, name='home'),
     url(r'^lar/', views.arHome, name='arHome'),
+
+    url(r'^en/', EnIndexView.as_view(), name='en'),
+
 ]
 
 if settings.DEBUG:

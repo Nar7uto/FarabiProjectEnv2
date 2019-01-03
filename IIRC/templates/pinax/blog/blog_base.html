@@ -17,8 +17,7 @@
             {% block sidebar %}
             <nav class="sections-nav">
                 <div class="heading"><h4 style="text-transform: capitalize;"><strong>Sections</strong></h4></div>
-                <h5 style="text-transform: capitalize;"><a
-                        class="{% if current_section == 'all' %}current-section{% endif %}" href="/blog/">All</a></h5>
+                <h5 style="text-transform: capitalize;"><a class="{% if current_section == 'all' %}current-section{% endif %}" href="/blog/">All</a></h5>
                 {% blog_sections as sections %}
                 {% for section in sections %}
                 {% if scoper_lookup %}

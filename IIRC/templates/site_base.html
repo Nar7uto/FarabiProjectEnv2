@@ -1,42 +1,90 @@
 {%load static%}
+{% load pinax_blog_tags %}
+<!DOCTYPE HTML>
+<html>
 
-{% block extracss %}
-{% include 'snippet/bootstrap4css.html' %}
+<head>
+    <link rel="shortcut icon" href="{% static 'img/544x180-300x99-387x128-67.png' %}" type="image/x-icon">
 
-<link rel="stylesheet" href="{% static 'css/navbar-top-fixed.css' %}">
-<link rel="stylesheet" href="{% static 'css/blog.css' %}">
-<style>
-  .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    body {
-        padding-top: 100px;
-    }
-</style>
-{% endblock %}
-
-
-{% block extra_head %}{% endblock %}
-
-{% block navbar %}
-    {% include 'snippet/navbar2.html' %}
-{% endblock %}
-
-{% block body %}
-    {% block content %}
+    {% block meta %}
     {% endblock %}
-    {% block extracontent %}{% endblock %}
-    {% block sidebar %}{% endblock %}
-    {% block extrasidebar %}{% endblock %}
-{% endblock %}
-{% block extraBodyBeforeFooter %}{% endblock %}
-{% block extrajs %}{% endblock %}
 
+    {% block css %}
+    {% endblock %}
 
+    {% block extracss %}
+        {% include 'snippet/bootstrap4css.html' %}
+
+        <link rel="stylesheet" href="{% static 'css/navbar-top-fixed.css' %}">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <style>
+            .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            }
+
+            @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+            }
+            body {
+            padding-top: 100px;
+            padding-left: 50px;
+            }
+        </style>
+    {% endblock %}
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+    {% block navbar %}
+    {% include 'snippet/navbar2.html' %}
+    {% endblock %}
+
+    {% block body %}
+        {% block content %}
+            {% for post in post_list %}
+            <div id="features-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <section class="box feature">
+                                <a href="#" class="image featured"><img src="{{ post.thumb.url }}"></a>
+                                <div class="inner">
+                                    <header>
+                                        <h2><a class="text-dark" href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+                                        <p><strong class="d-inline-block mb-2 text-primary">{{ post.section.name }} {{
+                                            post.published|date:"jS F Y" }}</strong></p>
+                                    </header>
+                                    <p>{{ post.teaser_html|safe }}</p>
+                                    <a href="{{ post.get_absolute_url }}">Continue reading</a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% endblock %}
+
+        {% block extracontent %}
+            This is Extra
+        {% endblock %}
+
+        {% block sidebar %}{% endblock %}
+
+        {% block extrasidebar %}{% endblock %}
+    {% endblock %}
+
+    {% block extraBodyBeforeFooter %}{% endblock %}
+
+    {% block footer %}
+    {% endblock %}
+
+    {% block js %}
+    {% endblock %}
+
+    {% block extrajs %}{% endblock %}
+</body>
+</html>

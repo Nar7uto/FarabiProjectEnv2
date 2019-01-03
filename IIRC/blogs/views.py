@@ -84,3 +84,7 @@ def home(request):
 def arHome(request):
     return render(request, 'snippet/arHome.html', {})
 
+
+def en(request):
+    return render(request, 'site_base.html', {})
+

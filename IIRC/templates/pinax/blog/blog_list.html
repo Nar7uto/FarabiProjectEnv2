@@ -6,21 +6,6 @@
 {% block content %}
 {% if post_list %}
 <div class="post-list">
-
-        <!--<div class="row">-->
-            <!--<div class="col-3">-->
-                <!--<img src="{{ post.thumb.url }}">-->
-            <!--</div>-->
-            <!--<div class="col-9">-->
-                <!--<h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>-->
-                <!--{% include "pinax/blog/dateline.html" %}-->
-                <!--<div class="teaser">{{ post.teaser_html|safe }}</div>-->
-                <!--<p class="more"><a href="{{ post.get_absolute_url }}" class="post-link">read more...</a></p>-->
-            <!--</div>-->
-            <!--<br>-->
-            <!--<br>-->
-        <!--</div>-->
-    <!---->
 {% for post in post_list %}
     <div class="row">
         <div class="col">
@@ -41,7 +26,7 @@
         </div>
 
     </div>
-        {% endfor %}
+    {% endfor %}
 
 
 </div>

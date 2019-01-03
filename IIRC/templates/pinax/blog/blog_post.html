@@ -50,7 +50,7 @@
                 <h2 class="mbr-header__text">{{ post.title }}</h2>
                  <p class="mbr-header__subtext">{% include "pinax/blog/dateline_stale.html" %}</p>
                 <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-outside-bottom mbr-figure--no-bg">
-                    <div><img src="{{ post.image.url }}" class="mbr-figure__img" width="600" height="600"></div>
+                    <div><img src="{{ post.image.url }}" class="mbr-figure__img" width="600" height="400"></div>
                     <figcaption class="mbr-figure__caption mbr-figure__caption--no-padding">
                         <small class="mbr-figure__caption-small">{{ post.teaser_html|safe }}</small>
                     </figcaption>

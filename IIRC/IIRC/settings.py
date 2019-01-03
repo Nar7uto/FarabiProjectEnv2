@@ -38,6 +38,7 @@ EMAIL_USE_SSL = True
 INSTALLED_APPS = [
     'tinymce',
     'filebrowser',
+    'pinax.blog',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'pinax.blog',
+
     'pinax.images',
     'bootstrapform',
     'crispy_forms',
