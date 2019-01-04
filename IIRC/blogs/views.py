@@ -4,6 +4,7 @@ from .form import ContactForm
 from django.core.mail import send_mail
 from django.conf import settings
 from .models import Post
+from pinax.blog.models import Post as blog_post
 
 def blogs(request):
     # return render(request, 'base.html', {})
@@ -86,5 +87,23 @@ def arHome(request):
 
 
 def en(request):
-    return render(request, 'site_base.html', {})
+    title = "Welcome guest"
+    posts = blog_post.objects.all().order_by('-published')[0:3]
+    lastPost = posts[0]
+    secondLastPost = posts[1]
+    thirdLastPost = posts[2]
+    newsPosts = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
+    articles = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
+    reports = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
+    images = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
+    videos = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
+
+    context = {
+        'posts': posts,
+        '1st': lastPost,
+        '2nd': secondLastPost,
+        '3rd': thirdLastPost,
+        'news': newsPosts,
+    }
+    return render(request, 'site_base.html', context)
 

@@ -2,17 +2,18 @@
 {% load pinax_blog_tags %}
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="/">
         <img src="{% static 'img/544x180-300x99-387x128-67.png' %}" width="80" height="35" alt="IIRC">
-    </a>
+      </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/en/">Home <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/en/">Home <span class="sr-only">(current)</span></a>
+      </li>
             </li>
             {% blog_sections as sections %}
             {% for section in sections %}
@@ -29,23 +30,8 @@
                 <a class="nav-link" href="#">Disabled</a>
             </li>
         </ul>
-        {% if current_section == "all" %}
-        {% if scoper_lookup %}
-        {% url "pinax_blog:blog" scoper_lookup as search_url %}
-        {% else %}
-        {% url "pinax_blog:blog" as search_url %}
-        {% endif %}
-        {% else %}
-        {% if scoper_lookup %}
-        {% url "pinax_blog:blog_section" scoper_lookup current_section.slug as search_url %}
-        {% else %}
-        {% url "pinax_blog:blog_section" current_section.slug as search_url %}
-        {% endif %}
-        {% endif %}
         <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" aria-label="Search" type="search" placeholder="Search..." name="q"
-                   value="{{ search_term|default:"" }}">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">العربية</button>
         </form>
     </div>
 </nav>

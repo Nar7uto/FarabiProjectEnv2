@@ -13,78 +13,113 @@
     {% endblock %}
 
     {% block extracss %}
-        {% include 'snippet/bootstrap4css.html' %}
+    {% include 'snippet/mobicss.html' %}
+    {% include 'snippet/bootstrap4css.html' %}
 
-        <link rel="stylesheet" href="{% static 'css/navbar-top-fixed.css' %}">
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-        <style>
-            .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            }
 
-            @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-            }
-            }
-            body {
-            padding-top: 100px;
-            padding-left: 50px;
-            }
-        </style>
     {% endblock %}
     {% block extra_head %}{% endblock %}
 </head>
 
 <body>
-    {% block navbar %}
-    {% include 'snippet/navbar2.html' %}
-    {% endblock %}
+{% block navbar %}
+{% include 'snippet/navbar2.html' %}
+{% endblock %}
 
-    {% block body %}
-        {% block content %}
-            {% for post in post_list %}
-            <div id="features-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4 col-12-medium">
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{{ post.thumb.url }}"></a>
-                                <div class="inner">
-                                    <header>
-                                        <h2><a class="text-dark" href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
-                                        <p><strong class="d-inline-block mb-2 text-primary">{{ post.section.name }} {{
-                                            post.published|date:"jS F Y" }}</strong></p>
-                                    </header>
-                                    <p>{{ post.teaser_html|safe }}</p>
-                                    <a href="{{ post.get_absolute_url }}">Continue reading</a>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        {% endblock %}
+{% block body %}
+{% block content %}
+<div class="article-list">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Latest News</h2>
+        </div>
+        <div class="row articles">
+        {% for post in posts %}
+            <div class="col-sm-6 col-md-4 item"><a href="{{post.get_absolute_url}}"><img class="img-fluid" src="{{post.image.url}}"></a>
+                <h3 class="name">{{post.title}}</h3>
+                <p class="description">{{post.description}}</p><a href="{{post.get_absolute_url}}" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+        {% endfor %}
+        </div>
+        <div class="intro">
+            <h2 class="text-center">Latest News</h2>
+        </div>
+        <div class="row articles">
+        {% for post in news %}
+            <div class="col-sm-6 col-md-4 item"><a href="{{post.get_absolute_url}}"><img class="img-fluid" src="{{post.image.url}}"></a>
+                <h3 class="name">{{post.title}}</h3>
+                <p class="description">{{post.description}}</p><a href="{{post.get_absolute_url}}" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
 
-        {% block extracontent %}
-            This is Extra
-        {% endblock %}
 
-        {% block sidebar %}{% endblock %}
 
-        {% block extrasidebar %}{% endblock %}
-    {% endblock %}
+<section class="mbr-section mbr-section-nopadding" id="msg-box5-1" style="background-color: rgb(255, 255, 255);">
 
-    {% block extraBodyBeforeFooter %}{% endblock %}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-7">
+            <div class="mbr-figure"><iframe class="mbr-embedded-video" src="https://www.aparat.com/video/video/embed/videohash/Js8nj/vt/frame" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-5 mbr-inner-padding text-xs-center">
+            <h3 class="mbr-section-title display-4">Video Embed</h3>
 
-    {% block footer %}
-    {% endblock %}
+            <div class="lead"><p>Online video and Youtube particularly is now more popular than cable television.</p></div>
+            <div><a class="btn btn-lg btn-secondary-outline">More</a></div>
+        </div>
 
-    {% block js %}
-    {% endblock %}
+    </div>
+</div>
+</section>
 
-    {% block extrajs %}{% endblock %}
+{% endblock %}
+
+{% block extracontent %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+			<div class="row">here is the 1st</div>
+			<div class="row">here is the 2nd</div>
+			<div class="row">here is the 3rd</div>
+        <div class="col-md-7"> HERE IS THE BIG PLACE</div>
+    </div>
+</div>
+</div>
+
+
+{% endblock %}
+
+{% block sidebar %}{% endblock %}
+
+{% block extrasidebar %}{% endblock %}
+{% endblock %}
+
+{% block extraBodyBeforeFooter %}{% endblock %}
+
+{% block footer %}
+    {% include 'snippet/mainFooter.html' %}
+{% endblock %}
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-0"
+        style="position: fixed;width: 100%;background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+    <div class="container">
+        <p class="text-xs-center"></p>
+    </div>
+</footer>
+
+<footer style="background-color: rgb(50, 50, 50);text-align: center;" class="footer mt-auto py-3">
+  <div class="container-fluid" >
+    <span class="text-muted">Copyright (c) 2019 IIRC.</span>
+  </div>
+</footer>
+
+{% block js %}
+    {% include 'snippet/bootstrap4js.html' %}
+    {% include 'snippet/mainjs.html' %}
+    <input name="animation" type="hidden">
+{% endblock %}
+
+{% block extrajs %}{% endblock %}
 </body>
 </html>
