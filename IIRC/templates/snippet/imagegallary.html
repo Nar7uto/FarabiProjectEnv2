@@ -1,0 +1,13 @@
+            <div class="row">
+                {% for post in articles %}
+                <div class="col-6 pb-2 mg-1	">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img img-fluid" src="{{post.image.url}}" style="width:450px;height:255px;" >
+                        <div class="card-img-overlay d-flex">
+                            <a href="{{post.get_absolute_url}}" class="align-self-end">
+                                <h6 class="card-title">{{post.title}}</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}

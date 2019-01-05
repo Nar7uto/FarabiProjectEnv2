@@ -87,23 +87,44 @@ def arHome(request):
 
 
 def en(request):
-    title = "Welcome guest"
-    posts = blog_post.objects.all().order_by('-published')[0:3]
-    lastPost = posts[0]
-    secondLastPost = posts[1]
-    thirdLastPost = posts[2]
+    posts = blog_post.objects.all().order_by('-published')[0:5]
+    mainSlide = blog_post.objects.all().order_by('-published')[0]
+    otherSlides = blog_post.objects.all().order_by('-published')[1:4]
     newsPosts = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
-    articles = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
-    reports = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
-    images = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
-    videos = blog_post.objects.filter(section_id='1').order_by('-published')[0:3]
+    lastNewsPost = blog_post.objects.filter(section_id='1').order_by('-published')[0]
+    articles = blog_post.objects.filter(section_id='2').order_by('-published')[0:4]
+    lastArticle = blog_post.objects.filter(section_id='2').order_by('-published')[0]
+    reports = blog_post.objects.filter(section_id='3').order_by('-published')[0:3]
+    lastReport = blog_post.objects.filter(section_id='3').order_by('-published')[0]
+    images = blog_post.objects.filter(section_id='6').order_by('-published')[0:4]
+    allImages = blog_post.objects.filter(section_id='6').order_by('-published')
+    lastImage = allImages[0]
+    image2= allImages[1]
+    image3= allImages[2]
+    image4= allImages[2]
+
+    videos = blog_post.objects.filter(section_id='8').order_by('-published')[0:3]
+    lastVideo = blog_post.objects.filter(section_id='8').order_by('-published')[0]
 
     context = {
+        'main': mainSlide,
+        'other': otherSlides,
         'posts': posts,
-        '1st': lastPost,
-        '2nd': secondLastPost,
-        '3rd': thirdLastPost,
         'news': newsPosts,
+        'lastNews': lastNewsPost,
+        'articles': articles,
+        'lastArticle': lastArticle,
+        'reports': reports,
+        'lastReport': lastReport,
+        'images': images,
+        'lastImage': lastImage,
+        'videos': videos,
+        'lastVideo': lastVideo,
+        'image1': lastImage,
+        'image2': image2,
+        'image3': image3,
+        'image4': image4,
+
     }
     return render(request, 'site_base.html', context)
 
