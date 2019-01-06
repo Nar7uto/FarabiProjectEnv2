@@ -1,0 +1,33 @@
+{# Pagination for default django.core.paginator.Paginator #}
+{# This template will work with CBV views with ``paginate_by`` specified. #}
+{% load i18n %}
+
+
+{% if is_paginated %}
+<nav aria-label="...">
+    <ul class="pagination justify-content-center">
+        {% if page_obj.has_previous %}
+        <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.previous_page_number|stringformat:' d' }}{{ getvars }}{{ hashtag }}" tabindex="-1">{% trans "Previous" %}</a>
+            {% else %}
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">{% block pagination_previous_label %}{% trans "Previous" %}{% endblock %}</a>
+            {% endif %}
+        </li>
+        {% for page in paginator.page_range %}
+        <li class="page-item {% ifequal page page_obj.number %}active{% endifequal %}">
+            <a class="page-link" href="?page={{ page|stringformat:' d' }}{{ getvars }}{{ hashtag }}">{{ page|stringformat:"d" }}</a></li>
+        </li>
+        {% endfor %}
+        <li class="page-item">
+            {% if page_obj.has_next %}
+            <a class="page-link" href="?page={{ page_obj.next_page_number|stringformat:' d' }}{{ getvars }}{{ hashtag }}" tabindex="-1">{% trans "Next" %}</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">{% block pagination_next_label %}{% trans "Next" %}{% endblock %}</a>
+                </li>
+            {% endif %}
+    </ul>
+</nav>
+{% endif %}
