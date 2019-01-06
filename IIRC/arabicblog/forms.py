@@ -6,23 +6,20 @@ from django.utils.translation import ugettext_lazy as _
 
 from pinax.images.models import ImageSet
 
-from .conf import settings
 from .models import Post, Section
-from .signals import post_published
-from .utils import load_path_attr
 
 from tinymce.widgets import TinyMCE
 
 
 FIELDS = [
     "section",
-    "author",
+    "kateb",
     "title",
     "slug",
     "teaser",
     "content",
+    "video",
     "description",
-    "state"
 ]
 
 
@@ -33,18 +30,8 @@ class PostFormMixin(object):
         post = self.instance
 
     def save_post(self, post):
-        published = False
-
-        if post.pk is None or Post.objects.filter(pk=post.pk, published=None).count():
-            if self.cleaned_data["state"] == Post.STATE_CHOICES[-1][0]:
-                post.published = timezone.now()
-                published = True
-
         post.updated = timezone.now()
         post.save()
-
-        if published:
-            post_published.send(sender=Post, post=post)
 
         return post
 
@@ -68,7 +55,11 @@ class AdminPostForm(PostFormMixin, forms.ModelForm):
         widget=TinyMCE(
             attrs={'required': False, 'cols': 30, 'rows': 10}
         ))
-
+    video = forms.CharField(
+        label=_("Video"),
+        widget=forms.Textarea(attrs={"style": "width: 80%;"}),
+        required=False
+    )
     description = forms.CharField(
         label=_("Description"),
         widget=forms.Textarea(attrs={"style": "width: 80%;"}),
@@ -100,8 +91,9 @@ class PostForm(PostFormMixin, forms.ModelForm):
             "title",
             "teaser",
             "content",
+            "video",
             "description",
-            "state"
+
         ]
 
     def __init__(self, *args, **kwargs):
@@ -112,13 +104,12 @@ class PostForm(PostFormMixin, forms.ModelForm):
         else:
             self.section = None
 
-    def save(self, blog=None, author=None):
+    def save(self, blog=None, kateb=None):
         post = super(PostForm, self).save(commit=False)
         if blog:
             post.blog = blog
-        if author:
-            post.author = author
-            post.image_set = ImageSet.objects.create(created_by=author)
+        if kateb:
+            post.author = kateb
         if self.section:
             post.section = self.section
         post.slug = slugify(post.title)

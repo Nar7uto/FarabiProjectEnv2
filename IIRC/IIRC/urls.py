@@ -18,12 +18,15 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.contrib import admin
 from blogs import views
+from arabicblog import views as ar_views
 from filebrowser.sites import site
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^admin/filebrowser/', include(site.urls)),
     url(r"^blog/", include("pinax.blog.urls", namespace="pinax_blog")),
+    url(r"^ar/blog/", include("arabicblog.urls", namespace="arabicblog")),
+
     url(r"^ajax/images/", include("pinax.images.urls", namespace="pinax_images")),
     # url(r"^account/", include("account.urls")),
     # url(r"^comments/", include("pinax.comments.urls", namespace="pinax_comments")),
@@ -36,6 +39,7 @@ urlpatterns = [
     url(r'^home/', views.home, name='home'),
     url(r'^lar/', views.arHome, name='arHome'),
     url(r'^en/', views.en, name='en'),
+    url(r'^ar/', ar_views.ar, name='ar'),
 
 ]
 

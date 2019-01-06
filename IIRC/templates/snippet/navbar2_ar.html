@@ -18,13 +18,17 @@
             {% blog_sections as sections %}
             {% for section in sections %}
             {% url "arabicblog:blog_section" section.slug as section_url %}
+            {% endif %}
             <li class="nav-item">
                 <a style="text-transform: capitalize;" class="nav-link" href="{{ section_url }}">{{ section.name }}</a>
             </li>
             {% endfor %}
+            <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+            </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">العربية</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" href="/en/">English</button>
         </form>
     </div>
 </nav>

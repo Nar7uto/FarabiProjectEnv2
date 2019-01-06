@@ -158,6 +158,8 @@ MEDIAFILES_DIRS = (os.path.join(BASE_DIR, 'static_in_pro', 'our_media'),
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # TINYMCE_DEFAULT_CONFIG = {
+#     'allow_html_in_named_anchor' : True,
+# }
 #     # 'width': 600,
 #     # 'height': 400,
 #     # 'theme': "advanced",
@@ -176,6 +178,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # }
 
 TINYMCE_FILEBROWSER = True
+
 FILEBROWSER_DIRECTORY = ''
 DIRECTORY = ''
 # TINYMCE_JS_ROOT = "tinymce/js/tinymce/"

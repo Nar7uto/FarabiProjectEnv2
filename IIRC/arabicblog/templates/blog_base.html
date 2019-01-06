@@ -1,0 +1,53 @@
+{% extends "site_base_ar.html" %}
+
+{% load arabicblog_tags %}
+{% block extrahead %}{% endblock %}
+
+{% block body_class %}blog{% endblock %}
+
+{% block navbar %}
+{% include 'snippet/navbar2withsearch_ar.html' %}
+{% endblock %}
+{% block body %}
+<main role="main" class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-9 blog-main">
+            {% block content %}{% endblock %}
+        </div>
+        {% block extracontent %}{% endblock %}
+        <div class="col-md-3 sidebar">
+            {% block sidebar %}
+            <nav class="sections-nav">
+                <div class="heading"><h4 style="text-transform: capitalize;"><strong>الأقسام</strong></h4></div>
+                <h5 style="text-transform: capitalize;"><a class="{% if current_section == 'all' %}current-section{% endif %}" href="/ar/blog/">الجمیع</a></h5>
+                {% blog_sections as sections %}
+                {% for section in sections %}
+                {% url "arabicblog:blog_section" section.slug as section_url %}
+                <a class="{% if current_section == section %}current-section{% endif %}" href="{{ section_url }}"><h5
+                        style="text-transform: capitalize;">{{ section.name }}</h5></a>
+                {% endfor %}
+            </nav>
+            <h1>
+                <a href="{{ blog_url }}">{{ SITE_NAME }}</a>
+            </h1>
+            <p class="bio">
+                This is where you can list your bio, add links
+                etc., by editing the template.
+            </p>
+            <div class="feeds">
+                <a href="{{ feed_url }}"><i class="fas fa-rss"></i> Atom Feed</a>
+            </div>
+
+
+            {% endblock %}
+            {% block extrasidebar %}{% endblock %}
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block extraBodyBeforeFooter %}{% endblock %}
+{% block extrajs %}{% endblock %}
+
+
+

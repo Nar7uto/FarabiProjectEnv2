@@ -1,0 +1,7 @@
+<p class="post-meta">
+    <span class="date">{% if post.created %}{{ post.created|date:"jS F Y" }}{% else %}Not created yet{% endif %}</span> /
+    by <span class="author">{{ post.author }}</span> in
+    {% url "arabicblog:blog_section" post.section.slug as section_url %}
+
+    <a href="{{ section_url }}"><span class="section">{{ post.section.name }}</span></a>
+</p>

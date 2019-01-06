@@ -5,10 +5,9 @@
       <a class="navbar-brand" href="/">
         <img src="{% static 'img/544x180-300x99-387x128-67.png' %}" width="80" height="35" alt="IIRC">
       </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -23,8 +22,16 @@
             </li>
             {% endfor %}
         </ul>
+        {% if current_section == "all" %}
+            {% url "arabicblog:blog" as search_url %}
+        {% else %}
+            {% url "arabicblog:blog_section" current_section.slug as search_url %}
+        {% endif %}
         <form class="form-inline mt-2 mt-md-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">العربية</button>
+            <input class="form-control mr-sm-2" aria-label="Search" type="search" placeholder="ابحث عن..." name="q"
+                   value="{{ search_term|default:"" }}">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">بحث</button>
         </form>
     </div>
 </nav>
+
