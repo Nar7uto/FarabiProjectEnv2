@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ae18a8-b7b7-4b5e-9a11-638e4e2e2d50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/dateline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/dateline_stale.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IIRC/templates/site_base_ar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2_ar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2withsearch_ar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/IIRC/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/IIRC/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/IIRC/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/IIRC/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/.idea/arabicblog.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/receivers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" afterDir="false" />
-    </list>
+    <list default="true" id="b3ae18a8-b7b7-4b5e-9a11-638e4e2e2d50" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546803611347</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Now the site has two language arabic and english&#10;also by copying arabicblog app we can add new languages to the site">
+      <created>1546817818709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546817818709</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -532,7 +507,8 @@
     <MESSAGE value="the two classes were deleted and added a function in blogs view to control the posts in site_base template" />
     <MESSAGE value="edited the homepage" />
     <MESSAGE value="adding arabicblog" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding arabicblog" />
+    <MESSAGE value="Now the site has two language arabic and english&#10;also by copying arabicblog app we can add new languages to the site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now the site has two language arabic and english&#10;also by copying arabicblog app we can add new languages to the site" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base.html">
