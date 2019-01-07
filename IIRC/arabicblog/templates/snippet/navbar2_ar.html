@@ -1,7 +1,7 @@
 {%load static%}
 {% load arabicblog_tags %}
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="rtl navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="/">
         <img src="{% static 'img/544x180-300x99-387x128-67.png' %}" width="80" height="35" alt="IIRC">
       </a>
@@ -10,7 +10,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav rtl" style="margin-left: auto!important;">
       <li class="nav-item active">
         <a class="nav-link" href="/ar/">الرئيسية <span class="sr-only">(current)</span></a>
       </li>
@@ -18,17 +18,14 @@
             {% blog_sections as sections %}
             {% for section in sections %}
             {% url "arabicblog:blog_section" section.slug as section_url %}
-            {% endif %}
             <li class="nav-item">
                 <a style="text-transform: capitalize;" class="nav-link" href="{{ section_url }}">{{ section.name }}</a>
             </li>
             {% endfor %}
-            <li class="nav-item">
-                <a class="nav-link" href="#">Disabled</a>
-            </li>
+
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" href="/en/">English</button>
+        <form action="/en/" class="form-inline mt-2 mt-md-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">English</button>
         </form>
     </div>
 </nav>

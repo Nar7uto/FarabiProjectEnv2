@@ -18,7 +18,9 @@
         .container-fluid{
             padding: 25px 25px;
         }
-
+        .rtl{
+            direction:rtl;
+        }
     </style>
 
     {% block extracss %}
@@ -40,7 +42,7 @@
         }
         @keyframes marquee {
         0%   { transform: translate(0, 0); }
-        100% { transform: translate(-80%, 0); }
+        100% { transform: translate(80%, 0); }
         }
     </style>
     {% endblock %}
@@ -57,7 +59,7 @@
 {% block content %}
 
 
-<div class="container-fluid">
+<div class="rtl container-fluid">
     <div class="marquee">
 	<p>
     {%for post in posts%}
@@ -120,14 +122,14 @@
         </div>
         <div class="col-6 py-0 px-1 d-none d-lg-block">
 
-            <div class="row">
+            <div class="rtl row">
                 {% for post in articles %}
                 <div class="col-6 pb-2 mg-1	">
                     <div class="card bg-dark text-white">
                         <img class="card-img img-fluid" src="{{post.image.url}}" style="width:445px;height:250px;" >
                         <div class="card-img-overlay d-flex">
                             <a href="{{post.get_absolute_url}}" class="align-self-end">
-                                <h6 class="card-title">{{post.title}}</h6>
+                                <h6 class="rtl card-title">{{post.title}}</h6>
                             </a>
                         </div>
                     </div>
@@ -142,24 +144,24 @@
 
   <div class="container marketing">
       <div class="intro">
-            <h2 class="text-center">Latest News</h2>
+            <h2 class="text-center">آخر الاخبار</h2>
       </div>
-    <div class="row">
+    <div class="rtl row">
     {% for post in news %}
-      <div class="col-lg-4">
+      <div class="rtl col-lg-4" style="margin-left: auto!important;">
         <img src="{{post.image.url}}" class="img-fluid" alt="Responsive image">
-        <h2>{{post.title}}</h2>
-        <p>{{post.description}}</p>
+        <h2 class="rtl" align="right">{{post.title}}</h2>
+        <p align="right">{{post.description}}</p>
         <p><a class="btn btn-secondary" href="{{post.get_absolute_url}}" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     {% endfor %}
     </div><!-- /.row -->
   </div>
 
-<div class="article-list">
+<div class="rtl article-list">
     <div class="container">
         <div class="intro">
-            <h2 class="text-center">Latest Reports</h2>
+            <h2 class="text-center">آخر التقارير</h2>
         </div>
         <div class="row articles">
             {% for post in reports %}
@@ -186,7 +188,7 @@
 </div>
 
 
-<section class="mbr-section mbr-section-nopadding" id="msg-box5-1" style="background-color: rgb(255, 255, 255);">
+<section class="rtl mbr-section mbr-section-nopadding" id="msg-box5-1" style="background-color: rgb(255, 255, 255);">
 
     <div class="container">
         <div class="row">
@@ -208,7 +210,7 @@
         </div>
     </div>
 </section>
-<section class="mbr-section mbr-section--relative mbr-section--fixed-size"
+<section class="rtl mbr-section mbr-section--relative mbr-section--fixed-size"
 id="social-buttons1-0" style="background-color: rgb(255, 255, 255);">
     <div class="mbr-section__container container">
         <div class="mbr-header mbr-header--inline row" style="padding-top: 13.6px; padding-bottom: 13.6px;">
@@ -250,10 +252,10 @@ id="social-buttons1-0" style="background-color: rgb(255, 255, 255);">
 
 
 {% block footer %}
-{% include 'snippet/mainFooter.html' %}
+{% include 'snippet/mainFooter_ar.html' %}
 {% endblock %}
 <footer style="background-color: rgb(50, 50, 50);text-align: center;" class="footer mt-auto py-3">
-    <div class="container-fluid">
+    <div style="background-color: rgb(50, 50, 50);text-align: center;" class="container-fluid">
         <span class="text-muted">Copyright (c) 2019 IIRC.</span>
     </div>
 </footer>

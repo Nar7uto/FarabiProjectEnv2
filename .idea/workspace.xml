@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ae18a8-b7b7-4b5e-9a11-638e4e2e2d50" name="Default Changelist" comment="" />
+    <list default="true" id="b3ae18a8-b7b7-4b5e-9a11-638e4e2e2d50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/bootstrap4css_rtl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/site_base_ar.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/site_base_ar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/mainFooter_ar.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/mainFooter_ar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2_ar.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2_ar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2withsearch_ar.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2withsearch_ar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" beforeDir="false" afterPath="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,93 +25,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html">
+        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/site_base_ar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/blog_post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="744">
+              <caret line="153" column="24" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/IIRC/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
-              <caret line="163" column="12" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1612">
-              <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base_ar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html">
+        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/mainFooter_ar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="62">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/models.py">
+        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2_ar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="372">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="67" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2withsearch_ar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,10 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>share</find>
-      <find>sharable_url</find>
-      <find>sharable</find>
-      <find>show</find>
       <find>DateBasedPostDetailView</find>
       <find>published</find>
       <find>blog_post</find>
@@ -150,6 +112,10 @@
       <find>desc</find>
       <find>disa</find>
       <find>nav</find>
+      <find>navbar</find>
+      <find>mr-auto</find>
+      <find>mr-auto</find>
+      <find>footer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -178,12 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IIRC/templates/pinax/blog/blog_base.html" />
-        <option value="$PROJECT_DIR$/IIRC/templates/snippet/mainFooter.html" />
-        <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/js/mobiJS/script.js" />
-        <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/mobiCSS/style.css" />
-        <option value="$PROJECT_DIR$/static_in_env/static_root/maincss/styles.css" />
-        <option value="$PROJECT_DIR$/static_in_env/static_root/mainjs/scripts.js" />
         <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/mobiCSS/puritymstyle.css" />
         <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/css/mobiCSS/awesomefont.css" />
         <option value="$PROJECT_DIR$/IIRC/static_in_pro/our_static/bootstrap3/custom/sticky-footer.css" />
@@ -220,15 +180,21 @@
         <option value="$PROJECT_DIR$/IIRC/templates/snippet/navbar2_ar.html" />
         <option value="$PROJECT_DIR$/IIRC/templates/site_base_ar.html" />
         <option value="$PROJECT_DIR$/IIRC/IIRC/urls.py" />
-        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html" />
         <option value="$PROJECT_DIR$/IIRC/IIRC/settings.py" />
-        <option value="$PROJECT_DIR$/IIRC/arabicblog/views.py" />
         <option value="$PROJECT_DIR$/IIRC/arabicblog/models.py" />
         <option value="$PROJECT_DIR$/IIRC/arabicblog/forms.py" />
         <option value="$PROJECT_DIR$/IIRC/arabicblog/admin.py" />
         <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_post.html" />
         <option value="$PROJECT_DIR$/IIRC/templates/snippet/navbar2withsearch_ar.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/views.py" />
         <option value="$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/bootstrap4css_rtl.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2_ar.html" />
+        <option value="$PROJECT_DIR$/IIRC/templates/snippet/navbar2withsearch.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2withsearch_ar.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/site_base_ar.html" />
+        <option value="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/mainFooter_ar.html" />
       </list>
     </option>
   </component>
@@ -266,7 +232,54 @@
               <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
               <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="arabicblog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
               <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="arabicblog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="snippet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="our_static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="our_static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="our_static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap4" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarabiProjectEnv2" type="462c0819:PsiDirectoryNode" />
+              <item name="IIRC" type="462c0819:PsiDirectoryNode" />
+              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="our_static" type="462c0819:PsiDirectoryNode" />
+              <item name="css-rtl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FarabiProjectEnv2" type="b2602c69:ProjectViewProjectNode" />
@@ -313,18 +326,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet" />
       <recent name="$PROJECT_DIR$/IIRC/templates/snippet" />
       <recent name="$PROJECT_DIR$/IIRC/templates" />
       <recent name="$PROJECT_DIR$/IIRC/arabicblog" />
       <recent name="$PROJECT_DIR$/IIRC/arabicblog/templates" />
-      <recent name="$PROJECT_DIR$/IIRC" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IIRC/arabicblog/templates/snippet" />
+      <recent name="$PROJECT_DIR$/IIRC/arabicblog/templates" />
       <recent name="$PROJECT_DIR$/IIRC/arabicblog" />
       <recent name="$PROJECT_DIR$/IIRC" />
       <recent name="$PROJECT_DIR$/IIRC/templates" />
-      <recent name="$PROJECT_DIR$/IIRC/templates/snippet" />
-      <recent name="$PROJECT_DIR$/IIRC/static_in_pro/our_static/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,14 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546817818709</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="making arabicblog an independent app">
+      <created>1546817976637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546817976637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1362" height="713" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19147345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22737472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -508,60 +528,10 @@
     <MESSAGE value="edited the homepage" />
     <MESSAGE value="adding arabicblog" />
     <MESSAGE value="Now the site has two language arabic and english&#10;also by copying arabicblog app we can add new languages to the site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now the site has two language arabic and english&#10;also by copying arabicblog app we can add new languages to the site" />
+    <MESSAGE value="making arabicblog an independent app" />
+    <option name="LAST_COMMIT_MESSAGE" value="making arabicblog an independent app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="252" column="24" selection-start-line="252" selection-start-column="24" selection-end-line="252" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/.idea/arabicblog.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4131" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="100" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/arabicblog1/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -723,25 +693,11 @@
     <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/dateline.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/blog_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/arHome.html">
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/arHome.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/asdada.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2_ar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/blogs/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -760,44 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/tinymce/static/tinymce/js/tinymce/tinymce.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7655">
           <caret line="1" column="266389" selection-start-line="1" selection-start-column="266389" selection-end-line="1" selection-end-column="266389" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1612">
-          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/templates/site_base_ar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2withsearch_ar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/IIRC/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-366">
@@ -842,10 +757,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="372">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/blog_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/blog_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/static_in_pro/our_static/css-rtl/sticky-footer.rtl.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1618">
+          <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/bootstrap4css_rtl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/static_in_pro/our_static/css-rtl/navbar-top-fixed.rtl.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/static_in_pro/our_static/bootstrap4/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/static_in_pro/our_static/css-rtl/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="5" column="130278" selection-start-line="5" selection-start-column="130233" selection-end-line="5" selection-end-column="130278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/static_in_pro/our_static/bootstrap4/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/bootstrap4js.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/templates/snippet/navbar2withsearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2withsearch_ar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/navbar2_ar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/site_base_ar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="153" column="24" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IIRC/arabicblog/templates/snippet/mainFooter_ar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
