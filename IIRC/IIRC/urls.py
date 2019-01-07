@@ -26,21 +26,24 @@ urlpatterns = [
     url(r'^admin/filebrowser/', include(site.urls)),
     url(r"^blog/", include("pinax.blog.urls", namespace="pinax_blog")),
     url(r"^ar/blog/", include("arabicblog.urls", namespace="arabicblog")),
-
     url(r"^ajax/images/", include("pinax.images.urls", namespace="pinax_images")),
-    # url(r"^account/", include("account.urls")),
-    # url(r"^comments/", include("pinax.comments.urls", namespace="pinax_comments")),
     url(r'^tinymce/', include('tinymce.urls')),
-    url(r'^blogs/', include('blogs.urls')),
-    url(r'^contact/', views.contact, name='contact'),
-    url(r'^base/', views.index, name='index'),
+
     url(r'^$', views.homepage, name='homepage'),
-    url(r'^test/', views.post, name='test'),
-    url(r'^home/', views.home, name='home'),
     url(r'^lar/', views.arHome, name='arHome'),
+
     url(r'^en/', views.en, name='en'),
     url(r'^ar/', ar_views.ar, name='ar'),
+    url(r'^contact/', views.contact, name='contact'),
+    url(r'^about/', views.about, name='about'),
 
+    url(r'^blogs/', include('blogs.urls')),
+    url(r'^base/', views.index, name='index'),
+    url(r'^test/', views.post, name='test'),
+    url(r'^home/', views.home, name='home'),
+
+    # url(r"^account/", include("account.urls")),
+    # url(r"^comments/", include("pinax.comments.urls", namespace="pinax_comments")),
 ]
 
 if settings.DEBUG:

@@ -22,6 +22,7 @@
             });
          });
 
+
     </script>
     {% endblock %}
     {% block extracss %}{% endblock %}
@@ -32,136 +33,99 @@
 <body>
 {% block navbar %}
 <div id="stage" style="background-color:cc0;">
-<section id="menu-0">
+    <section id="menu-0">
 
-    <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
-        <div class="container">
+        <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
+            <div class="container">
 
-            <div class="mbr-table">
-                <div class="mbr-table-cell">
-
-                    <div class="navbar-brand">
-                        <a href="../" class="navbar-logo">
-                            <img src="{% static 'img/544x180-300x99-387x128-67.png' %}" alt="IIRC"></a>
-                        <a class="navbar-caption" href="../">مركز الدكتور اقبال للبحوث والدراسات</a>
+                <div class="mbr-table">
+                    <div class="mbr-table-cell">
+                        <div class="navbar-brand">
+                            <a href="../" class="navbar-logo">
+                                <img src="{% static 'img/544x180-300x99-387x128-67.png' %}" alt="IIRC"></a>
+                            <a class="navbar-caption" href="../">مركز الدكتور اقبال للبحوث والدراسات</a>
+                        </div>
                     </div>
+                    <div class="mbr-table-cell">
 
+                        <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                            <div class="hamburger-icon"></div>
+                        </button>
+
+                        <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm"
+                            id="exCollapsingNavbar">
+                            <li class="nav-item"><a class="nav-link link" href="/contact/">تواصل معنا</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="/about/">حول الموقع</a></li>
+                            <li class="nav-item"><a class="nav-link link" href="/ar/">الرئيسية</a></li>
+                            <li class="nav-item">
+                                <input class="btn btn-primary" type="button" id="driver" value="English"/>
+                            </li>
+                        </ul>
+                        <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse"
+                                data-target="#exCollapsingNavbar">
+                            <div class="close-icon"></div>
+                        </button>
+
+                    </div>
                 </div>
-                <div class="mbr-table-cell">
 
-                    <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse"
-                            data-target="#exCollapsingNavbar">
-                        <div class="hamburger-icon"></div>
-                    </button>
-
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm"
-                        id="exCollapsingNavbar">
-                        <li class="nav-item"><a class="nav-link link" href="/base/">Home</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="/news/"
-                               aria-expanded="false">News</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/">Mobile friendly</a>
-                                <a class="dropdown-item" href="/">Based on Bootstrap</a>
-                                <div class="dropdown">
-                                    <a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="/">Trendy
-                                        blocks</a>
-                                    <div class="dropdown-menu dropdown-submenu">
-
-                                        <a class="dropdown-item" href="/">Image/content slider</a>
-                                        <a class="dropdown-item" href="/">Contact forms</a>
-                                        <a class="dropdown-item" href="/">Image gallery</a>
-                                        <a class="dropdown-item" href="/">Mobile menu</a>
-                                        <a class="dropdown-item" href="/">Google maps</a>
-                                        <a class="dropdown-item" href="/">Social buttons</a>
-                                        <a class="dropdown-item" href="/">Google fonts</a>
-                                        <a class="dropdown-item" href="/">Video background</a>
-                                    </div>
-                                </div>
-                                <a class="dropdown-item" href="/">Host anywhere</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link link" href="/article/"
-                                                aria-expanded="false">Article</a></li>
-                        <li class="nav-item"><a class="nav-link link" href="/report/"
-                                                aria-expanded="false">Report</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="/media/"
-                               aria-expanded="false">Media</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="/image/">Images</a>
-                                <a class="dropdown-item" href="/video/">Videos</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                        <input class="btn btn-primary" type = "button" id = "driver" value = "English" />
-                        </li>
-                    </ul>
-                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse"
-                            data-target="#exCollapsingNavbar">
-                        <div class="close-icon"></div>
-                    </button>
-
-                </div>
             </div>
-
-        </div>
-    </nav>
-</section>
+        </nav>
+    </section>
 
 
-{% endblock %}
-{% block body %}
-{% block content %}
+    {% endblock %}
+    {% block body %}
+    {% block content %}
 
-<section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow"
-         id="header1-0" style="background-image: url({% static 'img/header1.png' %});">
-    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);"></div>
-    <div class="mbr-table-cell">
-        <div class="container">
-            <div class="row">
-                <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
-                    <h1 class="mbr-section-title display-1">مرحبا بكم في مركز الدكتور اقبال للدراسات والابحاث</h1>
-                    <p class="mbr-section-lead lead">
+    <section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow"
+             id="header1-0" style="background-image: url({% static 'img/header1.png' %});">
+        <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);"></div>
+        <div class="mbr-table-cell">
+            <div class="container">
+                <div class="row">
+                    <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center">
+                        <h1 class="mbr-section-title display-1">مرحبا بكم في مركز الدكتور اقبال للدراسات والابحاث</h1>
+                        <p class="mbr-section-lead lead">
 
-                        ر مركز اقبال للدراسات والابحاث مركز اقبال للابحاث مركز اقبال
-                        <br>
-                        تتوفر المقالات والاخبار باللغتین
-                    </p>
-                    <div class="mbr-section-btn">
-                        <a class="btn btn-lg btn-info" href="../ar">عربي</a>
-                        <a class="btn btn-lg btn-white" href="../en">انكليزي</a>
+                            ر مركز اقبال للدراسات والابحاث مركز اقبال للابحاث مركز اقبال
+                            <br>
+                            تتوفر المقالات والاخبار باللغتین
+                        </p>
+                        <div class="mbr-section-btn">
+                            <a class="btn btn-lg btn-info" href="../ar">عربي</a>
+                            <a class="btn btn-lg btn-white" href="../en">انكليزي</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="mbr-arrow mbr-arrow-floating" aria-hidden="true">
-        <a href="#social-buttons2-0">
-            <i class="mbr-arrow-icon"></i>
-        </a>
-    </div>
-</section>
-{% include 'snippet/follow-us.html' %}
+        <div class="mbr-arrow mbr-arrow-floating" aria-hidden="true">
+            <a href="#social-buttons2-0">
+                <i class="mbr-arrow-icon"></i>
+            </a>
+        </div>
+    </section>
+    {% include 'snippet/follow-us_ar.html' %}
 
-{% endblock %}
-{% block extracontent %}{% endblock %}
+    {% endblock %}
+    {% block extracontent %}{% endblock %}
 
-{% block sidebar %}{% endblock %}
-{% block extrasidebar %}{% endblock %}
+    {% block sidebar %}{% endblock %}
+    {% block extrasidebar %}{% endblock %}
 
-{% endblock %}
-{% block extraBodyBeforeFooter %}{% endblock %}
+    {% endblock %}
+    {% block extraBodyBeforeFooter %}{% endblock %}
 
-{% block footer %}
-{% include 'snippet/mainFooter.html' %}
-{% endblock %}
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-0"
-        style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
-    <div class="container">
-        <p class="text-xs-center">Copyright (c) 2019 IIRC.</p>
-    </div>
-</footer>
+    {% block footer %}
+    {% include 'snippet/mainFooter_ar.html' %}
+    {% endblock %}
+    <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-0"
+            style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+        <div class="container">
+            <p class="text-xs-center">Copyright (c) 2019 IIRC.</p>
+        </div>
+    </footer>
 </div>
 {% block js %}
 {% include 'snippet/mainjs.html' %}

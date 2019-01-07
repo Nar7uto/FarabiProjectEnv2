@@ -9,14 +9,14 @@
 {% include 'snippet/navbar2withsearch_ar.html' %}
 {% endblock %}
 {% block body %}
-<main role="main" class="container-fluid">
+<main role="main" class="rtl container-fluid">
     <div class="row">
 
         <div class="col-md-9 blog-main">
             {% block content %}{% endblock %}
         </div>
         {% block extracontent %}{% endblock %}
-        <div class="col-md-3 sidebar">
+        <div class="col-md-3 sidebar" align="right">
             {% block sidebar %}
             <nav class="sections-nav">
                 <div class="heading"><h4 style="text-transform: capitalize;"><strong>الأقسام</strong></h4></div>

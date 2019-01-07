@@ -6,36 +6,13 @@ from django.conf import settings
 from .models import Post
 from pinax.blog.models import Post as blog_post
 
-def blogs(request):
-    # return render(request, 'base.html', {})
-    return render(request, 'landing.html', {})
-
 
 def homepage(request):
     return render(request, 'homepage.html', {})
 
 
-def index(request):
-    title = "Welcome guest"
-    form = SignUpForm(request.POST or None)
-    if request.user.is_authenticated:
-        title = "Welcome %s" % (request.user)
-    context = {
-        'title': title,
-        'myName': 'Hasan',
-        'form': form,
-    }
-    if form.is_valid():
-        instance = form.save(commit=False)
-        if not instance.fullname:
-            email_base, provider = instance.email.split('@')
-            instance.fullname = email_base
-            instance.save()
-        context = {
-            'title': 'Thank for Registeration',
-        }
-    # return render(request, 'base.html', context)
-    return render(request, 'index.html', context)
+def arHome(request):
+    return render(request, 'snippet/arHome.html', {})
 
 
 def contact(request):
@@ -64,26 +41,8 @@ def contact(request):
     return render(request, 'contact-us.html', context)
 
 
-class Postclass():
-    class Meta:
-        model = Post
-        fields = ['email', 'fullname']
-
-
-def post(request):
-    new_post = Post.objects.all()[:1]
-    context = {
-        'show_post': new_post
-    }
-    return render(request, 'test.html', context)
-
-
-def home(request):
-    return render(request, 'home.html', {})
-
-
-def arHome(request):
-    return render(request, 'snippet/arHome.html', {})
+def about(request):
+    return render(request, 'about.html', {})
 
 
 def en(request):
@@ -127,4 +86,59 @@ def en(request):
 
     }
     return render(request, 'site_base.html', context)
+
+
+def index(request):
+    title = "Welcome guest"
+    form = SignUpForm(request.POST or None)
+    if request.user.is_authenticated:
+        title = "Welcome %s" % (request.user)
+    context = {
+        'title': title,
+        'myName': 'Hasan',
+        'form': form,
+    }
+    if form.is_valid():
+        instance = form.save(commit=False)
+        if not instance.fullname:
+            email_base, provider = instance.email.split('@')
+            instance.fullname = email_base
+            instance.save()
+        context = {
+            'title': 'Thank for Registeration',
+        }
+    # return render(request, 'base.html', context)
+    return render(request, 'index.html', context)
+
+
+def blogs(request):
+    # return render(request, 'base.html', {})
+    return render(request, 'landing.html', {})
+
+
+def home(request):
+    return render(request, 'home.html', {})
+
+
+class Postclass():
+    class Meta:
+        model = Post
+        fields = ['email', 'fullname']
+
+
+def post(request):
+    new_post = Post.objects.all()[:1]
+    context = {
+        'show_post': new_post
+    }
+    return render(request, 'test.html', context)
+
+
+
+
+
+
+
+
+
 

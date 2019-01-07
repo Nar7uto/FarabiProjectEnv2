@@ -1,6 +1,6 @@
-<p class="post-meta">
+<p class="rtl post-meta" style="text-align: right;">
     {% if not post.stale %}
-        <span class="date">{% if post.created %}{{ post.created|date:"jS F Y" }}{% else %}Not created yet{% endif %}</span> /
+        <span class="date"style="text-align: right;">{% if post.created %}{{ post.created|date:"jS F Y" }}{% else %}Not created yet{% endif %}</span>
     {% endif %}
     by <span class="author">{{ post.author.get_full_name }}</span> in
     {% url "arabicblog:blog_section" post.section.slug as section_url %}
